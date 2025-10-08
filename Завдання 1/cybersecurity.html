@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Кібербезпека: тренди та загрози</title>
+  </head>
+  <body>
+    <header>
+      <h1>Кібербезпека: тренди та загрози</h1>
+      <nav role="navigation" aria-label="Головне меню">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="#" aria-current="page">Новини</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <p>
+          У 2025 році кіберзлочинці стають все більш організованими та
+          використовують ШІ для атак.
+        </p>
+        <p>
+          Компанії інвестують у багаторівневі системи безпеки та тренінги для
+          співробітників.
+        </p>
+        <p>
+          Кібербезпека стає ключовим фактором стабільності економіки та
+          державних структур.
+        </p>
+      </article>
+
+      <section>
+        <h2>Ключові факти</h2>
+        <ol>
+          <li>Збільшення кількості фішингових атак.</li>
+          <li>Розвиток технологій шифрування.</li>
+          <li>Впровадження кіберполітики на державному рівні.</li>
+        </ol>
+
+        <h2>Пов’язані теми</h2>
+        <ul>
+          <li>Штучний інтелект</li>
+          <li>Криптографія</li>
+          <li>Захист персональних даних</li>
+          <li>Хмарні технології</li>
+        </ul>
+
+        <figure>
+          <img src="security2025.jpg" alt="Кіберзахист у майбутньому" />
+          <figcaption>Захист даних у цифрову епоху</figcaption>
+        </figure>
+
+        <p>
+          <a href="index.html">Читати статтю: Нові технології в 2025 році</a>
+        </p>
+      </section>
+    </main>
+
+    <aside aria-labelledby="aside-title2">
+      <h2 id="aside-title2">Нові технології в 2025 році</h2>
+      <time datetime="2025-06-10">10 червня 2025</time>
+      <img src="tech.jpg" alt="Зображення про технології" />
+      <p>
+        Штучний інтелект, робототехніка та сталий розвиток стають ключовими
+        темами у світі технологій.
+      </p>
+      <a href="index.html">Детальніше</a>
+    </aside>
+
+    <footer>
+      <h2>Зворотний зв’язок</h2>
+      <form>
+        <label for="email">Ваш email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          aria-describedby="email-error"
+        />
+        <span id="email-error" aria-live="polite"
+          >Введіть коректну email-адресу</span
+        >
+
+        <label for="message">Ваш коментар:</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          minlength="10"
+        ></textarea>
+
+        <button type="submit" aria-label="Надіслати відгук">Надіслати</button>
+      </form>
+    </footer>
+  </body>
+</html>
